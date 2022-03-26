@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li,a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+header.cabe{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.cabe nav{
+    margin-right: 3em;
+}
+.cabe ul{
+    display: flex;
+}
+
+.cabe a{
+    margin: 1em;
+}
+
+
+/**/
+
+div.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    height: 40em;
+}
+
+.banner section{
+    position: absolute;
+    top: 15em;
+    width: 90vw;
+    margin: auto;
+}
+
+div.servico{
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    text-align: center;
+}

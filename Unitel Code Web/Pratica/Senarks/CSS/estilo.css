@@ -1,0 +1,109 @@
+
+/**/
+
+@font-face {
+    font-family: 'font-Logo';
+    src: url(../FONT/idroid.otf);
+}
+
+:root{
+    --cor1: #46C56E;
+    --cor2: #ffffff;
+    --cor3: #0e5224;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+ul,li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header.cabecalho{
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em ;
+
+}
+
+.cabecalho > div.cabecalho-logo a{
+    font-family: 'font-Logo';
+    font-size: 2em;
+    margin-left: 2em;
+    
+}
+
+
+.cabecalho ul{
+    display: flex;
+    margin-right: 1em;
+    padding: 2em;
+}
+.cabecalho li{
+    margin: 0.4em;
+}
+
+.cabecalho nav a{
+    padding: 1em;
+    transition-duration: 0.4s;
+}
+
+.cabecalho nav a:hover{
+    background-color: var(--cor3);
+    border-bottom: 4px double var(--cor2);
+    border-radius: 1em;
+}
+
+/**/
+div.conteudo{
+    width: 80vw;
+    margin: auto;
+    padding: 4em;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+section{
+    margin-left: 2em;
+}
+
+
+section img{
+    width: 300px;
+    height: 300px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    
+}
+
+
+.cabecalho a, footer{
+    color: var(--cor2);
+}
+
+
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 3em;
+   
+    
+}
+
+footer p{
+    font-family: "font-Logo";
+    font-size: 2em;
+}
+
+
+
