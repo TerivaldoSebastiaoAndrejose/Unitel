@@ -12,7 +12,33 @@ ul,li,a{
 }
 
 
+div.grafites img{
+    width: 100%;
+}
 
+div.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+
+}
+
+div.servicos h1{
+    margin-bottom: 2em;
+}
+
+div.servicos .servico-center{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.servico-center .card{
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
 
 div.galleria{
     display: flex;
